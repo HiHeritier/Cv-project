@@ -1,0 +1,55 @@
+
+.container {
+   
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+    max-width: 800px;
+    margin:0 auto;
+}
+.fixedTop{
+    margin-top: -0.5rem;
+    border-top: 4px solid black;
+    padding: 10px;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    width: 100%;
+  
+}
+.content{
+    margin-top: 6rem;
+}
+
+.content {
+    margin-top: 10rem;
+}
+
+.rightContainer{
+    position: relative;
+}
+.right{
+    
+
+    position: fixed;
+    background-color: white;
+    z-index: 4;
+}
+
+
+
+ /* @media screen and (max-width: 600px) {
+    body {
+       
+        width: fit-content;
+      
+    }
+
+    .container {
+        display: grid;
+    }
+   
+    } */
+
+   
+    
