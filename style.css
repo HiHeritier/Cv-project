@@ -38,18 +38,56 @@
 
 
 
- /* @media screen and (max-width: 600px) {
-    body {
-       
-        width: fit-content;
-      
+  @media screen and (max-width: 40em) {
+    .container{
+        flex-direction: row;
+    }
+    .container > * {
+        flex-basis: 100%;
+    }
+    .rightContainer{
+        padding: 0%;
+        color: #73808D;
+       font-family: arial;
+    font-style: normal;
+font-weight: 200;
+font-size: 11px;
+line-height: 18px;
+    }
+    h7 {
+        color: #73808D;
+    }
+    p2 {
+        color: #73808D;
+    }
+    p3{
+        color: #73808D;
+    }
+    p4 {
+        color: #73808D;
+    }
+    p5 {
+        color: #73808D;
+    }
+    p6 {
+        color: #73808D;
+    }
+    p7 {
+        color: #73808D;
+    }
+    .left{
+        font-family: arial;
+font-style: normal;
+font-weight: 100;
+font-size: 11px;
+line-height: 18px;
     }
 
-    .container {
-        display: grid;
     }
+    
    
-    } */
+   
+   
 
    
     
